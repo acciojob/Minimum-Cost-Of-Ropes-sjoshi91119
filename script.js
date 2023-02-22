@@ -1,3 +1,5 @@
+function calculateMinCost() {
+  //your code here
 function minCost(event) {
 	event.preventDefault();
 	var input = document.querySelector("input").value;
@@ -14,3 +16,4 @@ function minCost(event) {
 	}
 	document.querySelector("div").textContent=cost;
 }
+}  
